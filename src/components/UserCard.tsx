@@ -1,9 +1,7 @@
-const UserCard = ({ user }) => {
+const UserCard = ({type}: {type: string}) => {
   return (
     <div className="user-card">
-      <img src={user.avatar} alt={user.name} />
-      <h2>{user.name}</h2>
-      <p>{user.email}</p>
+      
     </div>
   );
 };
