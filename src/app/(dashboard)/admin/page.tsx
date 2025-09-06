@@ -1,5 +1,5 @@
 
-// Update the import path if the file is named differently or located elsewhere
+
 import AttendanceChart from "@/components/AttendenceChart";
 // Example: If the file is named AttendanceChart.tsx and located in src/components, use:
 // import AttendanceChart from "../../components/AttendanceChart";
