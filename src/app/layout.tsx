@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>test{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
+
 }
+
+
+
+//SING_IN FOLDER create karni hai 
