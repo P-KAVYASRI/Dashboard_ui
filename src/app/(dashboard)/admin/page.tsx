@@ -1,8 +1,7 @@
 
 
 import AttendanceChart from "@/components/AttendenceChart";
-// Example: If the file is named AttendanceChart.tsx and located in src/components, use:
-// import AttendanceChart from "../../components/AttendanceChart";
+
 import CountChart from "@/components/CountChart";
 import EventCalendar from "@/components/EventCalender";
 import FinanceChart from "@/components/FinanceChart";
