@@ -146,3 +146,4 @@ const Menu = () => {
 };
 
 export default Menu;
+//MEnu component code here
