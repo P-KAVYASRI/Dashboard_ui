@@ -12,7 +12,7 @@
    font-weight: 600;
 }
 .react-calendar__tile--now {
-  background-color: #bdd4e4 !important; /* Tailwind sky-100 */
-  color: black !important; /* 🔑 makes the number black */
+  background-color: #d8e4ed !important; /* Tailwind sky-100 */
+  color: black !important; 
   border-radius: 6px;
 }
