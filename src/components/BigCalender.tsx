@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Calendar, momentLocalizer, View, Views } from 'react-big-calendar'
 import moment from 'moment'
 import { calendarEvents } from '@/lib/data'
@@ -10,7 +10,7 @@ const localizer = momentLocalizer(moment)
 const BigCalendar = () => {
   const [view, setView] = useState<View>(Views.WORK_WEEK);
 
-  const handleOnChangeView =(selectedView:View)=>{
+  const handleOnChangeView =(selectedView: View)=>{
     setView(selectedView);
   };
   return (

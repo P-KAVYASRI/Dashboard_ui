@@ -16,3 +16,28 @@
   color: black !important; 
   border-radius: 6px;
 }
+
+.rbc-btn-group:first-child{
+  display: none;
+}
+
+.rbc-toolbar-label{
+  text-align: right !important;
+  padding: 0px 20px !important;
+}
+
+.rbc-btn-group:last-chilld{
+  font-size: 13px !important;
+}
+
+.rbc-btn-group:last-child button{
+  border:none !important;
+  background-color: #f1f0ff !important;
+  margin-left:2px;
+}
+
+.rbc-toolbar button.rbc-active{
+  background-color: #dbdafe !important; /* Tailwind purple-300 */
+ box-shadow: none !important;
+}
+
