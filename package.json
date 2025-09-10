@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.1",
     "@types/moment": "^2.11.29",
     "@types/react-big-calendar": "^1.16.2",
     "moment": "^2.30.1",

@@ -3,7 +3,9 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
+// Update the import path if InputField is located elsewhere, for example:
 import InputField from "../InputField";
+ // <-- Change this path if needed, e.g. "./InputField" or "../../InputField"
 import Image from "next/image";
 
 const schema = z.object({
