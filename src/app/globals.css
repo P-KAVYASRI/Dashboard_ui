@@ -106,3 +106,56 @@
   color: gray !important;
   margin-bottom: 5px;
 }
+/* src/app/globals.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1f1f1f;
+  color: #565353;
+  margin: 0;
+  padding: 2rem;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  background: rgb(97, 97, 97);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(24, 24, 24, 0.1);
+}
+
+h1 {
+  color: #080809;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  color: #070707;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.75rem;
+}
+
+ul li a,
+ul li {
+  color: #a5b5c8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ul li a:hover,
+ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
