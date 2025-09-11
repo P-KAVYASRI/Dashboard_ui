@@ -1,40 +1,38 @@
-// src/app/page.tsx
+import React from 'react'
 
-import Link from "next/link";
 
-export default function HomePage() {
+const Hero = () => {
+ 
+
   return (
-    <main
-      className="min-h-screen bg-cover bg-center flex flex-col items-center justify-center p-8"
-      style={{ backgroundImage: "url('/school-bg.jpg')" }} // 👈 put your image inside /public
-    >
-      <div className="bg-white bg-opacity-80 rounded-2xl shadow-xl p-10 max-w-3xl text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-black-700 mb-4">
-          Welcome to the School Dashboard
+    <div className='px-4 sm:px-20 xl:px-32 relative inline-flex flex-col w-full justify-center bg-[url(/gradientBackground.png)] bg-cover bg-no-repeat min-h-screen'>
+      <div className='text-center mb-6'>
+        <h1 className='text-2xl sm:text-5xl md:text-5xl 2xl:text-7xl font-semibold mx-auto leading-[1.2]'>
+          Create amazing content <br /> with <span className='text-primary'>AI tools</span>
         </h1>
-        <p className="text-lg md:text-xl text-gray-600 mb-10">
-          Manage your school’s teachers, students, and parents all in one place.
+        <p className='mt-4 max-w-ws-lg 2xl:max-w-xl m-auto max-sm:text-xs text-gray-600'>
+          Unleash your creativity with our powerful AI-driven content generation platform.
         </p>
-
-        {/* Navigation Cards */}
-        <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Card href="/list/teachers" emoji="👩‍🏫" title="Teachers" color="blue" />
-          <Card href="/list/students" emoji="🎓" title="Students" color="green" />
-          <Card href="/list/parents" emoji="👨‍👩‍👧" title="Parents" color="purple" />
-        </section>
       </div>
-    </main>
-  );
+
+      {/* Button container */}
+      <div className='flex justify-center gap-4 text-sm max-sm:text-xs'>
+        
+         
+        
+        <button
+          className='bg-white text-black px-10 py-3 rounded-lg hover:scale-105 active:scale-95 transition cursor-pointer'
+        >
+          Watch demo
+        </button>
+      </div>
+
+      {/* Trusted by users */}
+      <div className='flex items-center gap-4 mt-8 mx-auto text-gray-600'>
+        Trusted by 10K+ users
+      </div>
+    </div>
+  )
 }
 
-function Card({ href, emoji, title, color }: { href: string; emoji: string; title: string; color: string }) {
-  return (
-    <Link
-      href={href}
-      className={`bg-white shadow-md rounded-xl p-6 flex flex-col items-center hover:scale-105 transition-transform border-t-4 border-${color}-500`}
-    >
-      <span className="text-3xl">{emoji}</span>
-      <h2 className="mt-3 text-lg font-semibold text-gray-800">{title}</h2>
-    </Link>
-  );
-}
+export default Hero
