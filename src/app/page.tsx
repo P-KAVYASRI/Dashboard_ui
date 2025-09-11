@@ -3,9 +3,13 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div
-      className="relative flex flex-col w-full justify-center items-center bg-gradient-to-br from-black via-gray-900 to-green-900 bg-cover bg-no-repeat min-h-screen overflow-hidden"
-    >
+  <div className="relative flex flex-col w-full justify-center items-center min-h-screen overflow-hidden bg-black">
+  {/* Pattern overlay */}
+  <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
+  {/* Green overlay */}
+  <div className="absolute inset-0 bg-gradient-to-br from-green-900/40 via-transparent to-black"></div>
+
+
       {/* Animated background overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
